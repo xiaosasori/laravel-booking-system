@@ -20,4 +20,8 @@ class Employee extends Model
     public function scheduleExclusions() {
         return $this->hasMany(ScheduleExclusion::class);
     }
+
+    public function appointment() {
+        return $this->hasMany(Appointment::class);
+    }
 }
