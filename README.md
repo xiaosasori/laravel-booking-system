@@ -11,3 +11,5 @@
 - `php artisan make:model ScheduleExclusion -mf`
 ## Setting up appointments
 - `php artisan make:model Appointment -mf`
+## Working with date [periods](https://github.com/spatie/period)
+- `composer require spatie/period`
